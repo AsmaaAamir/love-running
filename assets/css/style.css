@@ -248,6 +248,13 @@ column-gap: 0;
         padding: 0;
     }
 
+    #times >div {
+        width: 100%;
+        clear: both;
+        height: 150%;
+        padding: 0;
+    }
+    
     hr {
         display: none;
     }
@@ -286,3 +293,4 @@ column-gap: 0;
     text-align: center;
     padding: 0 20px;
 }
+
