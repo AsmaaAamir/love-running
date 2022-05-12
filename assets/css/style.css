@@ -222,6 +222,7 @@ column-gap: 0;
 
 
 /*  For larger to medium screen sixe from 12000px wide and down */ 
+
 @media screen and (max-width:1200px) {
     #club-ethos {
         width: 65%;
@@ -250,9 +251,16 @@ column-gap: 0;
     hr {
         display: none;
     }
-
-   
-
-    
 } 
-    
+
+/*  For larger to medium screen sixe from 950px wide and down */ 
+
+@media screen and (max-width:950px) {
+ #menu {
+        clear:left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+   
+}
