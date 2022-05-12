@@ -254,7 +254,7 @@ column-gap: 0;
         height: 150%;
         padding: 0;
     }
-    
+
     hr {
         display: none;
     }
@@ -294,3 +294,12 @@ column-gap: 0;
     padding: 0 20px;
 }
 
+#photos {
+    column-count: 3;
+}
+
+@media screen and (max-width:800px) {
+    #photos {
+        column-count: 2;   
+}
+}
